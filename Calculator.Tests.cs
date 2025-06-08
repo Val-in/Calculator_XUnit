@@ -103,17 +103,6 @@ namespace Calculator.Tests
             // Assert
             Assert.IsType<DivideByZeroException>(exception);
         }
-        //[TestFixture]
-        //public class CalculatorTests
-        //{
-        //    [Test]
-        //    public void Division_MustThrowException()
-        //    {
-        //        var calculator = new Calculator();
-        //        Assert.Throws<DivideByZeroException>(() => calculator.Division(30, 0));
-        //    }
-        //}
-
         [Fact]
         public void Division_NegativeNumbers_ReturnsCorrectResult()
         {
